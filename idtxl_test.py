@@ -23,4 +23,7 @@
 # plot_network(results=results, weights='max_te_lag', fdr=False)
 # plt.show()
 
-### Test how to load matlab data
+### 2. Test how to load matlab data
+import h5py
+with h5py.File('/Users/wang/Documents/6PD/2pro/22_lng2mte/PD24_mte_test.mat', 'r') as f:
+     f.keys()
